@@ -1,0 +1,3511 @@
+﻿WEBVTT
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/9-0
+00:00:07.591 --> 00:00:07.991
+Yes.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/11-0
+00:00:09.431 --> 00:00:09.951
+OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/30-0
+00:00:11.261 --> 00:00:16.026
+So the the goal of this meeting
+now is to to show you how you
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/30-1
+00:00:16.026 --> 00:00:18.101
+can test the microservices.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/36-0
+00:00:20.061 --> 00:00:22.471
+I will show it to you with.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/44-0
+00:00:22.551 --> 00:00:26.261
+The the example of the crew
+microservice.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/55-0
+00:00:27.521 --> 00:00:30.739
+You can use the same procedure
+for every microservice in the
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/55-1
+00:00:30.739 --> 00:00:31.161
+project.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/67-0
+00:00:32.301 --> 00:00:38.481
+Umm yeah, so as you can see here
+in docspace.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/81-0
+00:00:39.291 --> 00:00:43.051
+I think I've send you this link
+last time I can send it again.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/102-0
+00:00:44.101 --> 00:00:48.337
+Here you can see some of the
+microservices. So at least for
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/102-1
+00:00:48.337 --> 00:00:52.501
+the one I have set up I I added
+the documentation in here.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/108-0
+00:00:53.471 --> 00:00:54.921
+The link is in the chat now.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/110-0
+00:00:55.831 --> 00:00:56.531
+And.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/126-0
+00:00:57.301 --> 00:01:01.972
+When I added the documentation,
+I also added the commands. How
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/126-1
+00:01:01.972 --> 00:01:04.641
+to start this this UI interface
+so.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/139-0
+00:01:05.721 --> 00:01:10.583
+Let's go with the net standard
+coverage microservice. This one
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/139-1
+00:01:10.583 --> 00:01:11.431
+is on crew.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/166-0
+00:01:12.321 --> 00:01:16.849
+And crew project. So what we see
+here is I have here documented
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/166-1
+00:01:16.849 --> 00:01:20.951
+the endpoints on all the
+environments. So on development,
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/166-2
+00:01:20.951 --> 00:01:22.861
+integration and production.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/179-0
+00:01:23.901 --> 00:01:28.491
+And I also added the command to
+start the TRPC UI for this
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/179-1
+00:01:28.491 --> 00:01:29.191
+endpoint.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/189-0
+00:01:30.571 --> 00:01:33.511
+Yeah, I mean, this is more a
+help. You can also do it
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/189-1
+00:01:33.511 --> 00:01:34.001
+yourself.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/204-0
+00:01:34.711 --> 00:01:39.677
+The endpoint you you will always
+see in in cloud run when you go
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/204-1
+00:01:39.677 --> 00:01:40.211
+to the.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/211-0
+00:01:41.041 --> 00:01:43.131
+To the to the microservice.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/217-0
+00:01:44.161 --> 00:01:45.631
+For example, crew to like.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/225-0
+00:01:46.441 --> 00:01:49.151
+And then you see here the URL of
+the.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/229-0
+00:01:50.381 --> 00:01:51.581
+The microservice.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/278-0
+00:01:52.421 --> 00:01:56.481
+From the specific endpoint, so
+this is now the crew to lag in
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/278-1
+00:01:56.481 --> 00:02:00.476
+the production crew environment
+and then you can also create
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/278-2
+00:02:00.476 --> 00:02:04.470
+this command for yourself. So
+this is just I I added it here
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/278-3
+00:02:04.470 --> 00:02:08.596
+so we can easy test it. So you
+can just copy paste the command
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/278-4
+00:02:08.596 --> 00:02:09.381
+and test it.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/308-0
+00:02:10.101 --> 00:02:14.644
+So what we also need is this
+tools called TRPC UI. I don't
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/308-1
+00:02:14.644 --> 00:02:19.572
+know. Last time I sent the link
+to this tool, could you already
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/308-2
+00:02:19.572 --> 00:02:22.421
+install it? This is work for you
+or?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/318-0
+00:02:23.461 --> 00:02:25.451
+Do you need some support there?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/327-0
+00:02:27.821 --> 00:02:30.701
+I tried but I'm not able to
+install that.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/332-0
+00:02:31.871 --> 00:02:33.001
+OK, well I'm not.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/336-0
+00:02:34.591 --> 00:02:35.421
+Was it like?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/346-0
+00:02:36.361 --> 00:02:39.911
+But error message you got or
+she's like permissions or.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/353-0
+00:02:40.951 --> 00:02:43.901
+I think, uh, I had tried on
+Wednesday.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/355-0
+00:02:45.621 --> 00:02:45.961
+So.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/364-0
+00:02:47.321 --> 00:02:49.651
+OK. Yeah, maybe that's check.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/363-0
+00:02:48.361 --> 00:02:49.371
+Today I will travel.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/380-0
+00:02:50.541 --> 00:02:53.641
+Let's check later. Maybe we can
+check together. I can support
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/368-0
+00:02:50.581 --> 00:02:51.091
+Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/380-1
+00:02:53.641 --> 00:02:54.141
+you. Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/379-0
+00:02:54.731 --> 00:02:54.951
+Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/400-0
+00:02:55.241 --> 00:02:59.621
+But so yeah, so if you have the
+the tool installed share PC Y,
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/400-1
+00:02:59.621 --> 00:03:02.471
+you can just like copy the
+command here.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/419-0
+00:03:04.161 --> 00:03:07.588
+And then yeah, I mean the
+command is like this is the the
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/419-1
+00:03:07.588 --> 00:03:09.951
+tool and then we are giving the
+header.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/429-0
+00:03:10.661 --> 00:03:13.301
+This is for the authorization,
+this will just.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/434-0
+00:03:14.761 --> 00:03:17.931
+Generate this bearer token.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/466-0
+00:03:18.621 --> 00:03:23.108
+Out of this, with the Chika
+command, and we will define an
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/466-1
+00:03:23.108 --> 00:03:27.671
+import path, so the import path
+is the path to the project,
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/466-2
+00:03:27.671 --> 00:03:32.463
+which the which contains all the
+protos. So this is in the OPS
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/466-3
+00:03:32.463 --> 00:03:33.451
+team project.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/522-0
+00:03:34.751 --> 00:03:38.539
+And then in the folder API
+version one protest. Then we
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/522-1
+00:03:38.539 --> 00:03:42.664
+define the the specific proto
+for this microservice. So here
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/522-2
+00:03:42.664 --> 00:03:46.587
+the net stand by coverage
+service Pro Tools defined. This
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/522-3
+00:03:46.587 --> 00:03:50.915
+is the path to this profile and
+then at the very end the at the
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/522-4
+00:03:50.915 --> 00:03:55.311
+your of the microservice the one
+we we can see in the cloud run.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/540-0
+00:03:56.281 --> 00:04:01.673
+Instance and then you have this
+command we can just like copy
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/540-1
+00:04:01.673 --> 00:04:04.021
+paste it into the terminal.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/557-0
+00:04:09.661 --> 00:04:13.372
+So I can run it from every
+terminal or from the Windows
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/557-1
+00:04:13.372 --> 00:04:14.631
+PowerShell as well.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/577-0
+00:04:16.111 --> 00:04:21.116
+And then it will start it in a
+browser. If you could change to
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/577-1
+00:04:21.116 --> 00:04:23.101
+the Edge browser so here.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/585-0
+00:04:25.551 --> 00:04:28.791
+And what we see here now is the.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/620-0
+00:04:29.621 --> 00:04:32.771
+Like UI to test the
+microservices so we see here
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/620-1
+00:04:32.771 --> 00:04:35.920
+sometimes you have like
+different service on one
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/620-2
+00:04:35.920 --> 00:04:39.905
+endpoint. Here it's just one and
+then we have the methods. So
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/620-3
+00:04:39.905 --> 00:04:43.761
+there's always this health
+checked method. This is used by.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/669-0
+00:04:44.391 --> 00:04:48.971
+By the OPS team to check if if
+the service is running like,
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/669-1
+00:04:48.971 --> 00:04:53.779
+stay the serving and then there
+is the individual methods from
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/669-2
+00:04:53.779 --> 00:04:58.816
+the the service. So here we have
+like the get net Sampa coverage.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/669-3
+00:04:58.816 --> 00:05:03.624
+This for example is used in the
+OPSD U UI here for net standby
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/669-4
+00:05:03.624 --> 00:05:04.311
+coverage.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/691-0
+00:05:05.041 --> 00:05:09.349
+It's to load this these figures
+for a day. So for example we can
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/691-1
+00:05:09.349 --> 00:05:11.071
+load it here for tomorrow.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/721-0
+00:05:13.691 --> 00:05:17.383
+And then we can also test it
+afterwards in the microservice
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/721-1
+00:05:17.383 --> 00:05:20.891
+directly. So take some time if
+it's loading now from the
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/721-2
+00:05:20.891 --> 00:05:21.321
+crying.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/743-0
+00:05:22.811 --> 00:05:26.070
+And it will cash it. So the
+first loading is always a bit
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/743-1
+00:05:26.070 --> 00:05:29.609
+slow, then it's the cache for a
+minute or two so we can see we
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/743-2
+00:05:29.609 --> 00:05:30.901
+have some figures here.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/746-0
+00:05:31.761 --> 00:05:33.311
+Now we can try to.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/753-0
+00:05:34.391 --> 00:05:37.521
+To do it here as well so.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/826-0
+00:05:38.611 --> 00:05:42.044
+You as you can see the
+authorization is already
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/826-1
+00:05:42.044 --> 00:05:46.405
+prefilled. This we did with the
+terminal and now we can hear
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/826-2
+00:05:46.405 --> 00:05:50.767
+select. There's only the date
+we're giving. So we can either
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/826-3
+00:05:50.767 --> 00:05:55.343
+specify date here or we can also
+use the chason which also then
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/826-4
+00:05:55.343 --> 00:05:59.347
+can like the request can then be
+copied and pasted easy
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/826-5
+00:05:59.347 --> 00:06:03.924
+afterwards. Especially important
+for like more for more complex
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/826-6
+00:06:03.924 --> 00:06:07.141
+requests for let's trust maybe
+for tomorrow.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/831-0
+00:06:07.951 --> 00:06:08.961
+It's just December.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/836-0
+00:06:09.981 --> 00:06:11.011
+If you got some date.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/847-0
+00:06:11.871 --> 00:06:15.267
+And as you can see here, we have
+already the date for tomorrow,
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/847-1
+00:06:15.267 --> 00:06:16.381
+so it was successful.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/861-0
+00:06:17.371 --> 00:06:21.842
+Um yeah, they have box tops 6th
+of December and then we have
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/861-1
+00:06:21.842 --> 00:06:23.821
+some pictures here as well.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/863-0
+00:06:25.681 --> 00:06:26.071
+Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/871-0
+00:06:29.071 --> 00:06:31.411
+This is more or less like.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/879-0
+00:06:32.881 --> 00:06:35.301
+What I wanted to show you how to
+test the microservices.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/881-0
+00:06:36.991 --> 00:06:37.731
+So.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/897-0
+00:06:39.361 --> 00:06:43.443
+Yeah, I mean, we can try to
+install it on your machines and
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/897-1
+00:06:43.443 --> 00:06:45.211
+I can support you on that.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/903-0
+00:06:46.431 --> 00:06:49.371
+Or yeah, do you have any
+questions?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/914-0
+00:06:50.311 --> 00:06:53.961
+Or anything else I can show you
+regarding to this microservices.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/939-0
+00:06:55.721 --> 00:06:59.403
+Hi Christian. So this route
+Question column is here. This is
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/922-0
+00:06:57.911 --> 00:06:58.261
+Yes.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/939-1
+00:06:59.403 --> 00:07:03.145
+for passing side data or the
+data which you want to modify in
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/939-2
+00:07:03.145 --> 00:07:04.291
+a particular photo.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/960-0
+00:07:08.981 --> 00:07:12.581
+So for example, for particular
+microservice we want to pass
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/945-0
+00:07:09.621 --> 00:07:10.271
+Like.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/952-0
+00:07:12.161 --> 00:07:12.771
+Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/960-1
+00:07:12.581 --> 00:07:15.761
+some side data that side data.
+How we can pass here?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/965-0
+00:07:17.501 --> 00:07:18.991
+What do you mean with site data?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1011-0
+00:07:19.701 --> 00:07:23.595
+Sagar maybe for some API the
+information of the airport I'm
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1011-1
+00:07:23.595 --> 00:07:27.229
+not sure, but for example
+there's some API for nightban
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/984-0
+00:07:26.321 --> 00:07:26.721
+Umm.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1011-2
+00:07:27.229 --> 00:07:31.123
+validation and there are few
+site data like the information
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/997-0
+00:07:29.911 --> 00:07:30.251
+Mm-hmm.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1011-3
+00:07:31.123 --> 00:07:35.017
+of the airport information of
+the departure time and I will
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1011-4
+00:07:35.017 --> 00:07:35.341
+time.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1013-0
+00:07:36.081 --> 00:07:36.581
+And.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1015-0
+00:07:37.321 --> 00:07:37.761
+Umm.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1030-0
+00:07:38.761 --> 00:07:42.619
+So do do you know which
+microservices is covering that
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1030-1
+00:07:42.619 --> 00:07:43.601
+you know that?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1049-0
+00:07:45.151 --> 00:07:48.885
+So I think night night band
+validation microservice, we
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1049-1
+00:07:48.885 --> 00:07:50.151
+don't know the URL.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1059-0
+00:07:49.291 --> 00:07:52.340
+There is an option where
+there's, yeah, you have a need
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1047-0
+00:07:49.521 --> 00:07:49.981
+Open.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1059-1
+00:07:52.340 --> 00:07:53.701
+to check, so let's check.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1061-0
+00:07:54.261 --> 00:07:55.131
+Just.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1074-0
+00:07:56.251 --> 00:08:00.256
+Uh, it's probably in, you know,
+which project it is. Is it in
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1074-1
+00:08:00.256 --> 00:08:00.901
+misconnex?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1080-0
+00:08:00.481 --> 00:08:03.671
+I'll I'll send the link. No no
+send.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1081-0
+00:08:03.411 --> 00:08:03.911
+OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1084-0
+00:08:05.511 --> 00:08:06.091
+This one.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1102-0
+00:08:42.791 --> 00:08:46.101
+Uh, it's in the solutions page
+generated so.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1113-0
+00:08:48.851 --> 00:08:52.811
+Not been motivator, so probably
+in.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1118-0
+00:08:56.501 --> 00:08:57.771
+Grandsolver then.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1123-0
+00:09:10.461 --> 00:09:11.021
+Nope.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1130-0
+00:09:16.621 --> 00:09:18.911
+Then it's notation I think.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1148-0
+00:09:50.451 --> 00:09:52.121
+Yeah, I don't. I don't know
+where it is.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1160-0
+00:09:55.301 --> 00:09:59.751
+See, there's this nine
+granulator the airport module.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1173-0
+00:10:03.951 --> 00:10:08.341
+Port service. Ohh. The service
+is called airport service OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1195-0
+00:10:10.301 --> 00:10:13.928
+And this is in rotation. OK, so
+we have the service which is
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1195-1
+00:10:13.928 --> 00:10:17.614
+called airport. Let me check.
+I've never heard about this. So
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1195-2
+00:10:17.614 --> 00:10:19.041
+I also need to find out.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1216-0
+00:10:21.131 --> 00:10:25.619
+Court in probably here. Aircraft
+change this is the rotation. So
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1216-1
+00:10:25.619 --> 00:10:28.381
+here we have the airport
+service. Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1219-0
+00:10:29.201 --> 00:10:29.521
+Yep.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1221-0
+00:10:31.181 --> 00:10:31.881
+OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1230-0
+00:10:34.061 --> 00:10:36.871
+Yeah. And I mean now we need to
+find out.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1236-0
+00:10:38.171 --> 00:10:40.141
+You will need to create the.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1250-0
+00:10:42.461 --> 00:10:47.586
+The command for this one, so
+it's gonna be cheap to see you
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1250-1
+00:10:47.586 --> 00:10:48.611
+default and.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1260-0
+00:11:26.081 --> 00:11:26.641
+What?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1271-0
+00:11:29.451 --> 00:11:33.061
+And then it's the airport
+service Proto.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1276-0
+00:11:34.711 --> 00:11:35.771
+Then we paste.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1278-0
+00:11:35.961 --> 00:11:36.471
+And.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1287-0
+00:11:38.411 --> 00:11:41.431
+You are all talk the HTTPS.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1294-0
+00:11:43.411 --> 00:11:45.661
+And at the port at the end.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1300-0
+00:11:48.561 --> 00:11:50.651
+Hope this works, looks good.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1305-0
+00:11:51.571 --> 00:11:53.281
+So here you can see now.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1317-0
+00:11:54.031 --> 00:11:57.131
+Yeah, this is not the airport
+service. So we have the airport
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1317-1
+00:11:57.131 --> 00:11:57.531
+service.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1323-0
+00:11:58.301 --> 00:12:00.691
+And it has several.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1332-0
+00:12:02.021 --> 00:12:03.891
+What was? It was for the night
+then, right?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1334-0
+00:12:04.601 --> 00:12:05.111
+Right.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1337-0
+00:12:05.531 --> 00:12:06.221
+Night then.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1347-0
+00:12:08.331 --> 00:12:12.191
+And see anything here? Convert
+airport times distance.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1352-0
+00:12:14.451 --> 00:12:16.521
+No, it's not in here.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1366-0
+00:12:26.321 --> 00:12:30.301
+The the structure of the night
+band request is there in that
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1366-1
+00:12:30.301 --> 00:12:31.671
+night band Validator.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1374-0
+00:12:35.131 --> 00:12:38.081
+Yeah, the structures here, but I
+don't know where.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1383-0
+00:12:39.541 --> 00:12:40.891
+Is it already implemented?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1382-0
+00:12:39.581 --> 00:12:40.521
+If you come down.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1393-0
+00:12:41.781 --> 00:12:43.331
+Do you know if it's already
+implemented?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1397-0
+00:12:42.131 --> 00:12:44.621
+I think it's not in production
+yet.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1402-0
+00:12:46.611 --> 00:12:47.321
+And in death.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1423-0
+00:12:48.301 --> 00:12:52.590
+Umm, no, I don't think so. It's
+there in there. That's why
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1423-1
+00:12:52.590 --> 00:12:54.771
+you're not able to see it yet.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1422-0
+00:12:53.201 --> 00:12:54.551
+Yeah, but.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1425-0
+00:12:55.911 --> 00:12:56.921
+Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1428-0
+00:12:57.851 --> 00:12:58.331
+Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1432-0
+00:12:58.301 --> 00:12:59.551
+Correct, correct, correct.
+Correct.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1443-0
+00:13:00.861 --> 00:13:02.071
+OK, so for example.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1444-0
+00:13:00.951 --> 00:13:02.111
+It's not in depth yet.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1458-0
+00:13:01.861 --> 00:13:05.111
+Yeah. I mean here, we're really
+testing this to service which is
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1458-1
+00:13:05.111 --> 00:13:06.711
+already installed, I mean, yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1468-0
+00:13:08.241 --> 00:13:10.911
+I see this is from last week the
+documentation.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1485-0
+00:13:11.361 --> 00:13:14.885
+Yeah, yeah, yeah. This is not
+yet in depth. So what? And this
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1478-0
+00:13:13.431 --> 00:13:13.851
+Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1485-1
+00:13:14.885 --> 00:13:17.271
+is asking. If you come down the
+position.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1488-0
+00:13:18.801 --> 00:13:19.181
+Umm.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1513-0
+00:13:18.871 --> 00:13:21.974
+See, when you pass a particular
+request for a particular
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1513-1
+00:13:21.974 --> 00:13:25.458
+service, if you come down, come
+down, come down, come see. This
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1510-0
+00:13:25.251 --> 00:13:25.591
+Umm.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1513-2
+00:13:25.458 --> 00:13:26.601
+is the request. Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1518-0
+00:13:26.801 --> 00:13:28.461
+Umm yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1557-0
+00:13:27.731 --> 00:13:31.942
+And then if you come down, there
+are some side inputs. I mean
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1557-1
+00:13:31.942 --> 00:13:36.085
+these are all at additional
+criterias basically you know and
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1530-0
+00:13:32.161 --> 00:13:32.461
+People.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1536-0
+00:13:33.161 --> 00:13:34.151
+Hard.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1557-2
+00:13:36.085 --> 00:13:40.227
+then the response. So how do
+you? So if you have to test the
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1544-0
+00:13:36.321 --> 00:13:36.691
+Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1550-0
+00:13:37.961 --> 00:13:38.651
+OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1557-3
+00:13:40.227 --> 00:13:41.721
+GRPC for this service.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1562-0
+00:13:42.581 --> 00:13:43.991
+Or will it ideally look like?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1572-0
+00:13:45.531 --> 00:13:48.401
+Good question. I don't know
+about this slide input.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1587-0
+00:13:49.471 --> 00:13:53.186
+But in case of, uh crew, we
+don't have this kind of a
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1587-1
+00:13:53.186 --> 00:13:56.762
+structure request, just
+straightforward request and
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1587-2
+00:13:56.762 --> 00:13:57.381
+response.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1600-0
+00:13:57.731 --> 00:14:01.709
+Yeah, I've never seen this. Now
+for our service, I have
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1600-1
+00:14:01.709 --> 00:14:02.561
+implemented.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1603-0
+00:14:03.331 --> 00:14:03.821
+Umm.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1618-0
+00:14:03.721 --> 00:14:07.493
+Uh, so I'm sorry, I don't know
+what they mean with side input,
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1618-1
+00:14:07.493 --> 00:14:08.271
+I don't know.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1629-0
+00:14:08.261 --> 00:14:12.480
+These are these are additional
+criterias. Basically one is the
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1629-1
+00:14:12.480 --> 00:14:12.881
+basic.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1643-0
+00:14:13.811 --> 00:14:17.503
+Basic uh departure time, arrival
+time, flight time, taxi and
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1643-1
+00:14:17.503 --> 00:14:18.411
+time, etcetera.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1645-0
+00:14:19.451 --> 00:14:19.871
+Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1653-0
+00:14:20.511 --> 00:14:22.441
+And then decide inputs on a
+dish.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1651-0
+00:14:21.161 --> 00:14:21.731
+And.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1697-0
+00:14:23.231 --> 00:14:26.812
+In that particular device, GRPC
+Y, there's one option for
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1697-1
+00:14:26.812 --> 00:14:30.515
+request like raw data that
+request raw data is like similar
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1697-2
+00:14:30.515 --> 00:14:34.219
+to what we are passing in a
+profile or just like input data
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1697-3
+00:14:34.219 --> 00:14:38.231
+which is like can also be we can
+say side data yeah this option.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1731-0
+00:14:38.081 --> 00:14:41.784
+You mean this one? Yeah. So this
+one always is the same as this
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1704-0
+00:14:39.631 --> 00:14:40.021
+Yes.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1731-1
+00:14:41.784 --> 00:14:45.256
+one. You see, if I now hear,
+adds the date, he will add the
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1731-2
+00:14:45.256 --> 00:14:48.091
+date here as well. If I add it
+to the date here.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1790-0
+00:14:48.971 --> 00:14:53.194
+You can use both whatever you
+prefer. So if I change the plan
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1790-1
+00:14:53.194 --> 00:14:57.076
+2022 it's change to 2022 here.
+So I mean for the testing
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1790-2
+00:14:57.076 --> 00:15:01.230
+probably you want to work with
+this one because you can just
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1790-3
+00:15:01.230 --> 00:15:04.976
+copy and paste it then.
+Otherwise you have to manually
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1790-4
+00:15:04.976 --> 00:15:08.721
+select here all the the
+parameters again and again so.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1810-0
+00:15:09.831 --> 00:15:12.767
+You can use the chase and then
+just copy paste the request
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1810-1
+00:15:12.767 --> 00:15:15.753
+here, but at the end it's the
+same. Do some this one is the
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1810-2
+00:15:15.753 --> 00:15:16.001
+same.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1820-0
+00:15:16.561 --> 00:15:19.194
+And this request better is
+getting fetched from that
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1820-1
+00:15:19.194 --> 00:15:19.591
+profile.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1842-0
+00:15:21.941 --> 00:15:24.823
+This one here. Yeah. This is.
+Yeah. This is getting crashed
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1836-0
+00:15:22.131 --> 00:15:24.121
+The meta data, yeah, the meta
+data.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1842-1
+00:15:24.823 --> 00:15:26.071
+from the profile. Exactly.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1844-0
+00:15:26.961 --> 00:15:27.251
+OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1849-0
+00:15:27.971 --> 00:15:28.791
+And like.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1868-0
+00:15:28.201 --> 00:15:31.614
+I mean, no, the method that. No,
+no, no, sorry. The metadata does
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1868-1
+00:15:31.614 --> 00:15:34.715
+not fetch from the protocol. The
+metadata we defined in the
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1868-2
+00:15:34.715 --> 00:15:36.111
+command. Here you see here.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1885-0
+00:15:37.021 --> 00:15:41.067
+The header you'll be defined the
+header, for example, you'll be
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1885-1
+00:15:41.067 --> 00:15:43.721
+defined the authorization blah
+blah blah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1893-0
+00:15:44.461 --> 00:15:45.971
+I mean, we cannot.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1890-0
+00:15:44.711 --> 00:15:45.521
+OK and.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1895-0
+00:15:46.801 --> 00:15:47.291
+Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1917-0
+00:15:48.131 --> 00:15:51.061
+This authorization will be set
+up for every user or this
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1917-1
+00:15:51.061 --> 00:15:53.631
+command can be used by anyone
+this authorization.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1981-0
+00:15:53.651 --> 00:15:56.912
+The this command is like a
+chicken command. If you like
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1981-1
+00:15:56.912 --> 00:16:00.230
+Ronnie, don't you also need to
+be able to run it in your
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1981-2
+00:16:00.230 --> 00:16:03.898
+machine because when I run it on
+my machine it will generate a
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1981-3
+00:16:03.898 --> 00:16:07.624
+token. You see this one. So this
+is the the access token I need
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1951-0
+00:16:05.251 --> 00:16:05.521
+Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1981-4
+00:16:07.624 --> 00:16:11.000
+to run this command. I think
+it's valid for maybe half an
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1981-5
+00:16:11.000 --> 00:16:14.785
+hour or something. So every time
+you read you test it again. You
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1981-6
+00:16:14.785 --> 00:16:15.541
+need like to.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1998-0
+00:16:16.341 --> 00:16:20.422
+Check this needs to be
+reinitialized. So yeah, if you
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/1998-1
+00:16:20.422 --> 00:16:22.991
+have a trust here in the
+command.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2033-0
+00:16:23.931 --> 00:16:28.130
+You will always have a fresh one
+and then you need don't need to
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2033-1
+00:16:28.130 --> 00:16:31.877
+copy paste any any identity
+tokens in there. But yeah, it
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2033-2
+00:16:31.877 --> 00:16:34.461
+will. Just generally this
+command here.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2047-0
+00:16:35.281 --> 00:16:40.182
+We just generate this token and
+then automatically paste it in
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2042-0
+00:16:38.891 --> 00:16:39.181
+Umm.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2047-1
+00:16:40.182 --> 00:16:40.571
+here.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2059-0
+00:16:42.621 --> 00:16:46.121
+So you have already that the
+request metadata set.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2052-0
+00:16:43.031 --> 00:16:43.471
+OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2137-0
+00:16:47.161 --> 00:16:50.724
+This you can do already with the
+command here. Yeah. So you need
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2137-1
+00:16:50.724 --> 00:16:54.286
+to if you have like issues with
+of authorization everything also
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2137-2
+00:16:54.286 --> 00:16:57.793
+try to run this command here on
+your machine with you maybe you
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2137-3
+00:16:57.793 --> 00:17:01.081
+can also test it already. Now
+you've cheat cloud installed.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2137-4
+00:17:01.081 --> 00:17:04.588
+Try if you can generate such a
+token such an identity token you
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2137-5
+00:17:04.588 --> 00:17:07.931
+should get a token then back.
+This can be used to access all
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2137-6
+00:17:07.931 --> 00:17:09.301
+the microservices in the.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2142-0
+00:17:10.161 --> 00:17:11.231
+And then.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2146-0
+00:17:12.531 --> 00:17:13.461
+On the Google cloud.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2152-0
+00:17:14.221 --> 00:17:15.601
+The one you have access to.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2170-0
+00:17:16.891 --> 00:17:19.725
+I don't think this command will
+work directly on Windows. I
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2170-1
+00:17:19.725 --> 00:17:22.181
+think I need to do some setup
+for working discount.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2176-0
+00:17:23.181 --> 00:17:24.181
+Now it runs on Windows.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2183-0
+00:17:25.141 --> 00:17:25.801
+Which ones?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2186-0
+00:17:25.231 --> 00:17:26.851
+Have you installed sheetrock
+already?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2215-0
+00:17:27.641 --> 00:17:31.832
+Yeah. No, it should. Yeah. You
+need to install cheap cloud.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2195-0
+00:17:27.671 --> 00:17:28.381
+No, no, not yet.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2215-1
+00:17:31.832 --> 00:17:36.022
+Yeah. So you need cheat cloud. I
+mean you, you will need it
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2203-0
+00:17:31.851 --> 00:17:32.271
+OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2215-2
+00:17:36.022 --> 00:17:36.511
+anyway.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2238-0
+00:17:37.521 --> 00:17:42.012
+Who cloud software? And then you
+will and then it's just like a
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2238-1
+00:17:42.012 --> 00:17:45.871
+terminal and see you can do
+everything with this this.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2247-0
+00:17:47.061 --> 00:17:49.961
+Like log on to the Google cloud.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2262-0
+00:17:53.131 --> 00:17:56.563
+3 Authorize your user and
+everything, so this is like this
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2262-1
+00:17:56.563 --> 00:17:57.551
+is really needed.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2274-0
+00:17:58.461 --> 00:18:03.531
+And you will also need like this
+chair RPC UI application.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2280-0
+00:18:04.931 --> 00:18:06.631
+This is required, yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2292-0
+00:18:05.431 --> 00:18:09.611
+Like this GFCI? This G cloud is
+also open like it can be
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2292-1
+00:18:09.611 --> 00:18:11.591
+installed from open source.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2299-0
+00:18:13.491 --> 00:18:15.561
+Yeah, think loud. You can
+install from Google.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2301-0
+00:18:16.481 --> 00:18:16.861
+OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2304-0
+00:18:17.841 --> 00:18:18.581
+Show you.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2306-0
+00:18:27.451 --> 00:18:27.851
+Uh.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2309-0
+00:18:34.261 --> 00:18:34.731
+Yeah, yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2313-0
+00:18:36.461 --> 00:18:37.431
+Listen to the chat.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2316-0
+00:18:41.491 --> 00:18:42.261
+This one.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2328-0
+00:18:43.301 --> 00:18:47.594
+Let's see. It's for Windows,
+Mac, Linux. So whatever you
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2328-1
+00:18:47.594 --> 00:18:48.121
+prefer.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2335-0
+00:18:49.991 --> 00:18:52.541
+And then you need to go.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2346-0
+00:18:55.451 --> 00:18:59.091
+And go. You will gonna need for
+cheap PC UI.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2354-0
+00:19:05.351 --> 00:19:08.521
+Or here on beat up you see down
+here the.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2358-0
+00:19:09.451 --> 00:19:10.501
+How to install it?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2372-0
+00:19:11.331 --> 00:19:15.451
+Could direct directly install it
+from go with this command?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2374-0
+00:19:16.461 --> 00:19:16.961
+OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2384-0
+00:19:17.181 --> 00:19:19.071
+Yeah. And then.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2408-0
+00:19:18.141 --> 00:19:22.241
+This does not have any security
+issues, Christian, since we are
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2408-1
+00:19:22.241 --> 00:19:26.469
+directly downloading it from the
+Get report on the Internet, this
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2408-2
+00:19:26.469 --> 00:19:29.031
+does not have any security
+constraints.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2411-0
+00:19:30.921 --> 00:19:31.691
+This UI.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2414-0
+00:19:34.061 --> 00:19:34.651
+I mean.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2420-0
+00:19:39.191 --> 00:19:41.341
+You need to discuss with the
+architecture team.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2431-0
+00:19:42.051 --> 00:19:44.602
+Yeah, I mean, I don't know
+because it's it just directly
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2431-1
+00:19:44.602 --> 00:19:45.541
+installing, you know.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2441-0
+00:19:46.611 --> 00:19:48.481
+Ohh you I I mean.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2460-0
+00:19:47.731 --> 00:19:50.370
+I mean, it's going to be
+installed on your machine, it's
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2460-1
+00:19:50.370 --> 00:19:53.101
+on your machine installed. Yeah,
+but it's like open source
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2453-0
+00:19:51.581 --> 00:19:52.081
+Ohh.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2460-2
+00:19:53.101 --> 00:19:53.841
+software, right?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2462-0
+00:19:54.351 --> 00:19:55.021
+Uh.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2465-0
+00:19:56.471 --> 00:19:56.901
+Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2466-0
+00:19:56.471 --> 00:19:56.981
+Uh.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2473-0
+00:19:58.851 --> 00:20:01.081
+So from here we have two.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2482-0
+00:20:06.291 --> 00:20:08.911
+Does it exceed file? That would
+be there? No, I think.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2484-0
+00:20:11.561 --> 00:20:12.551
+Ohh.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2494-0
+00:20:15.311 --> 00:20:18.221
+But no, probably, yeah, no, I
+mean.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2496-0
+00:20:18.051 --> 00:20:19.071
+Yeah, I think.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2511-0
+00:20:25.541 --> 00:20:29.839
+Yeah, I'm not sure because it's
+running on go, so maybe there's
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2511-1
+00:20:29.839 --> 00:20:30.711
+no exit, but.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2520-0
+00:20:31.601 --> 00:20:34.521
+To be honest, I don't know. I've
+just installed it.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2531-0
+00:20:35.381 --> 00:20:38.851
+Um, anyone from the project is
+using it yet so.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2537-0
+00:20:41.011 --> 00:20:42.641
+It's quite common here.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2539-0
+00:20:44.841 --> 00:20:45.291
+OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2542-0
+00:20:53.911 --> 00:20:54.381
+Yes.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2564-0
+00:20:57.881 --> 00:21:00.776
+Just wanted to see one more
+thing. One more thing like the
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2564-1
+00:21:00.776 --> 00:21:03.524
+response how response was
+looking like for the API last
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2555-0
+00:21:01.071 --> 00:21:01.561
+Umm.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2564-2
+00:21:03.524 --> 00:21:04.211
+year you call.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2565-0
+00:21:03.961 --> 00:21:04.401
+Umm.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2575-0
+00:21:06.411 --> 00:21:09.581
+So I mean there is you go to the
+response tab.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2581-0
+00:21:10.321 --> 00:21:11.811
+Then you will get the.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2596-0
+00:21:13.311 --> 00:21:16.710
+Yeah. Then you will get the
+either you got the response data
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2596-1
+00:21:16.710 --> 00:21:17.601
+or you get like.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2613-0
+00:21:19.071 --> 00:21:22.691
+North authorized exception or
+like uh internal server error
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2613-1
+00:21:22.691 --> 00:21:24.561
+exception. If there are issues.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2631-0
+00:21:25.711 --> 00:21:29.719
+But usually you get. You should
+get the response data here also
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2631-1
+00:21:29.719 --> 00:21:30.721
+in Jason format.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2635-0
+00:21:32.451 --> 00:21:32.861
+OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2634-0
+00:21:32.581 --> 00:21:32.891
+Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2644-0
+00:21:34.651 --> 00:21:37.751
+This anyway, like response can
+also come in proto format.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2669-0
+00:21:38.411 --> 00:21:41.747
+By hard when we are sending
+request to him current command
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2669-1
+00:21:41.747 --> 00:21:45.366
+we are getting response in photo
+format is is. Is that the case
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2669-2
+00:21:45.366 --> 00:21:46.101
+I'm not sure.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2671-0
+00:21:46.391 --> 00:21:46.761
+So.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2680-0
+00:21:47.861 --> 00:21:51.681
+I mean, not like you cannot. Not
+in this right now.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2683-0
+00:21:52.931 --> 00:21:53.191
+No.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2685-0
+00:21:53.101 --> 00:21:53.421
+OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2715-0
+00:21:57.121 --> 00:22:00.547
+So generally, do you have a
+practice question when you
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2715-1
+00:22:00.547 --> 00:22:04.595
+deploy a particular service, you
+also check in Dev and INT both.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2706-0
+00:22:02.671 --> 00:22:02.901
+Umm.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2715-2
+00:22:04.595 --> 00:22:05.591
+So I mean is it?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2729-0
+00:22:08.731 --> 00:22:12.276
+What do you mean? Um between
+installed a particular service
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2729-1
+00:22:12.276 --> 00:22:13.871
+we're checking dev and INT.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2746-0
+00:22:13.581 --> 00:22:17.795
+You. Yeah. In in whether whether
+it's giving the response in Dev
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2734-0
+00:22:14.871 --> 00:22:15.261
+Or.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2746-1
+00:22:17.795 --> 00:22:19.091
+as well as INT both.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2758-0
+00:22:19.871 --> 00:22:23.611
+Yeah. The thing is, I don't know
+how.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2763-0
+00:22:25.151 --> 00:22:26.941
+You are already um.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2798-0
+00:22:28.901 --> 00:22:33.428
+Have experience with our release
+plan so we will install that
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2774-0
+00:22:32.021 --> 00:22:32.521
+Umm.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2798-1
+00:22:33.428 --> 00:22:37.662
+right. And then like a week
+later, we will start it on on
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2783-0
+00:22:33.721 --> 00:22:34.681
+Yeah, yeah, yeah, yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2798-2
+00:22:37.662 --> 00:22:38.611
+int yeah, so.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2800-0
+00:22:38.031 --> 00:22:38.991
+From Umm.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2840-0
+00:22:40.271 --> 00:22:43.117
+There's already been tested on
+that, and then it's the new
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2808-0
+00:22:40.921 --> 00:22:41.721
+And.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2840-1
+00:22:43.117 --> 00:22:46.059
+version on INT and then the dev
+version is gonna be upgraded
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2840-2
+00:22:46.059 --> 00:22:48.856
+updated as well as the latest
+version. So usually the the
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2840-3
+00:22:48.856 --> 00:22:50.881
+versions on dev and INT are not
+the same.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2865-0
+00:22:52.321 --> 00:22:56.505
+Yeah. If we have on Dev version
+1.15 on and we have 1.16 and
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2865-1
+00:22:56.505 --> 00:22:58.151
+then probably have 1.17.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2867-0
+00:22:59.311 --> 00:23:00.401
+So.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2870-0
+00:23:01.681 --> 00:23:02.051
+Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2892-0
+00:23:03.361 --> 00:23:07.243
+And this URL how do you
+categorize between INT? Whether
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2892-1
+00:23:07.243 --> 00:23:11.401
+your chest testing this is in
+INT or dev? How do I do that?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2899-0
+00:23:12.431 --> 00:23:14.451
+This is now like in the.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2906-0
+00:23:15.481 --> 00:23:18.171
+I mean you need to get it from
+the.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2927-0
+00:23:20.031 --> 00:23:24.169
+You cannot see it in the URL.
+You really need to check on
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2927-1
+00:23:24.169 --> 00:23:27.451
+Google Cloud what's the URL from
+the service.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2974-0
+00:23:28.821 --> 00:23:32.546
+So you for example here the
+airport service here. This is
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2974-1
+00:23:32.546 --> 00:23:36.720
+the URL for this airport service
+on Dev. This is on there. Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2959-0
+00:23:35.041 --> 00:23:37.031
+On dev. OK, got it.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2974-2
+00:23:36.720 --> 00:23:40.893
+And if you want to have the URL
+from this service on it you need
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2974-3
+00:23:40.893 --> 00:23:42.691
+read you need to go to this.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2983-0
+00:23:44.281 --> 00:23:50.331
+Aircraft change project on INT.
+Let me check integration.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2986-0
+00:23:53.041 --> 00:23:53.761
+Um.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/2990-0
+00:23:56.771 --> 00:23:58.201
+From the here.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3006-0
+00:24:00.151 --> 00:24:04.505
+And then you have the airport
+here and now you have the URL
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3006-1
+00:24:04.505 --> 00:24:05.521
+port int here.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3019-0
+00:24:05.791 --> 00:24:08.801
+Got it. Got it. So it's only
+your L. You need to find out.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3015-0
+00:24:07.201 --> 00:24:08.061
+Yeah, I.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3037-0
+00:24:09.401 --> 00:24:13.101
+Yeah, and that's the reason I
+created this documentation with
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3025-0
+00:24:09.781 --> 00:24:10.311
+I.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3037-1
+00:24:13.101 --> 00:24:14.951
+the URL. So you have it on one.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3040-0
+00:24:15.941 --> 00:24:16.271
+Of.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3056-0
+00:24:16.321 --> 00:24:20.281
+Yeah. You, you, you, you. You
+see it here without checking on
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3056-1
+00:24:20.281 --> 00:24:21.941
+Google Cloud. Every every.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3072-0
+00:24:23.241 --> 00:24:26.114
+Every time again because they
+don't change from their skip,
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3072-1
+00:24:26.114 --> 00:24:27.311
+there's they're the same.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3100-0
+00:24:28.561 --> 00:24:32.235
+But this is not done for each
+service. You can see only the
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3100-1
+00:24:32.235 --> 00:24:35.909
+crew services here. So probably
+if you want to test all the
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3100-2
+00:24:35.909 --> 00:24:37.991
+services you need to check it
+on.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3119-0
+00:24:38.821 --> 00:24:42.038
+Google Cloud you can also add it
+new pages here to the
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3119-1
+00:24:42.038 --> 00:24:44.961
+documentation if you want and
+that the endpoints.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3121-0
+00:24:46.171 --> 00:24:46.511
+Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3125-0
+00:24:54.241 --> 00:24:54.811
+And discuss.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3128-0
+00:24:55.891 --> 00:24:56.341
+That's true.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3129-0
+00:24:56.151 --> 00:24:56.661
+Umm.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3132-0
+00:24:58.421 --> 00:24:58.831
+So the.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3134-0
+00:24:58.911 --> 00:25:00.321
+The.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3147-0
+00:25:01.481 --> 00:25:06.291
+Sagar, you do not have access to
+the int as of now.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3152-0
+00:25:09.001 --> 00:25:10.631
+Yes, only only the day.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3157-0
+00:25:11.521 --> 00:25:12.931
+Sorry, only the product.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3163-0
+00:25:13.891 --> 00:25:16.801
+Already I have access inked and.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3165-0
+00:25:18.581 --> 00:25:19.071
+New.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3171-0
+00:25:20.321 --> 00:25:21.611
+You have for rent also.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3173-0
+00:25:22.181 --> 00:25:22.571
+Yes.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3183-0
+00:25:23.751 --> 00:25:25.441
+Today I have received.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3178-0
+00:25:23.991 --> 00:25:24.381
+OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3180-0
+00:25:24.071 --> 00:25:24.511
+OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3195-0
+00:25:26.881 --> 00:25:28.971
+You have received it. OK. OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3190-0
+00:25:26.911 --> 00:25:27.561
+OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3194-0
+00:25:28.261 --> 00:25:28.661
+You know.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3202-0
+00:25:30.381 --> 00:25:31.891
+I mean, I would.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3201-0
+00:25:30.701 --> 00:25:31.151
+What?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3211-0
+00:25:34.721 --> 00:25:37.731
+I would say maybe install this
+software.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3243-0
+00:25:39.241 --> 00:25:43.969
+And try to make a simple request
+to. I would take the net standby
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3243-1
+00:25:43.969 --> 00:25:47.981
+coverage because it's a simple
+request and try to get a
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3243-2
+00:25:47.981 --> 00:25:49.771
+response on that and int.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3265-0
+00:25:51.351 --> 00:25:55.213
+And let's see if you if it works
+for you or if you still have
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3265-1
+00:25:55.213 --> 00:25:57.641
+like authorization issues or
+anything.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3269-0
+00:25:59.951 --> 00:26:00.751
+What do you think?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3273-0
+00:26:05.231 --> 00:26:05.721
+That's your.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3278-0
+00:26:05.581 --> 00:26:07.391
+But I mean, yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3306-0
+00:26:10.071 --> 00:26:13.636
+You can do it now or we can make
+another session later if you
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3306-1
+00:26:13.636 --> 00:26:17.259
+need help or yeah, or you can
+just ping me if you need support
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3306-2
+00:26:17.259 --> 00:26:18.121
+with the setup.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3322-0
+00:26:18.761 --> 00:26:22.111
+I think we can use this time
+time slot. Let's use this time.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3314-0
+00:26:19.111 --> 00:26:19.801
+It's up to you.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3323-0
+00:26:22.191 --> 00:26:22.651
+Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3327-0
+00:26:23.391 --> 00:26:24.201
+Makes sense too.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3345-0
+00:26:24.701 --> 00:26:27.991
+Yeah, yeah, we have. We have
+some blocked one hour, so we can
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3345-1
+00:26:27.991 --> 00:26:29.901
+do that on on Sagar's your
+machine.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3347-0
+00:26:33.351 --> 00:26:33.771
+Good.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3354-0
+00:26:39.481 --> 00:26:41.571
+So Sagar do you want maybe want
+to share?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3356-0
+00:26:42.391 --> 00:26:42.761
+Yes.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3366-0
+00:27:02.951 --> 00:27:03.921
+My screen is visible.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3368-0
+00:27:05.581 --> 00:27:05.961
+Umm.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3381-0
+00:27:13.521 --> 00:27:16.271
+Skin open document for
+reinstallation of GFCI.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3389-0
+00:27:36.091 --> 00:27:36.811
+I think.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3399-0
+00:27:39.111 --> 00:27:42.561
+So did you already install the
+Google Cloud so.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3403-0
+00:27:44.091 --> 00:27:45.141
+Google Cloud has.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3415-0
+00:27:46.251 --> 00:27:50.071
+OK, OK. And go and tear PCY.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3412-0
+00:27:47.681 --> 00:27:48.331
+Yeah you can.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3426-0
+00:28:01.591 --> 00:28:04.321
+Maybe you can open a terminal
+and try to.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3440-0
+00:28:34.951 --> 00:28:35.721
+Should I click here?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3444-0
+00:28:39.861 --> 00:28:40.921
+Open a terminal.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3451-0
+00:28:44.131 --> 00:28:45.101
+Or PowerShell.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3452-0
+00:28:44.401 --> 00:28:45.201
+And command prompt.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3454-0
+00:28:47.061 --> 00:28:47.391
+Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3459-0
+00:28:55.871 --> 00:28:57.541
+And try chirpy. See why.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3467-0
+00:28:59.831 --> 00:29:02.101
+Uh, sorry, uh, she cloud cheek
+cloud.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3470-0
+00:29:11.911 --> 00:29:12.841
+Yeah, so it's.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3474-0
+00:29:20.561 --> 00:29:21.671
+Ohh.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3482-0
+00:29:22.901 --> 00:29:25.451
+And then do you wanna try in
+your machine first?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3490-0
+00:29:24.941 --> 00:29:27.891
+Yes, maybe I will share my
+screen and candish quickly try.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3492-0
+00:29:29.521 --> 00:29:29.891
+Sure.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3502-0
+00:29:30.611 --> 00:29:33.423
+I haven't installed the share PC
+client where I can install it
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3502-1
+00:29:33.423 --> 00:29:33.601
+now.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3537-0
+00:31:06.911 --> 00:31:10.316
+Christian, do you have the link
+for GRPC UI so I can also start
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3537-1
+00:31:10.316 --> 00:31:10.741
+getting?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3544-0
+00:31:11.211 --> 00:31:14.311
+Yeah, it's also in the chat, so.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3556-0
+00:31:15.701 --> 00:31:19.731
+Uh, and I sent a link for go and
+for cheap PCI.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3569-0
+00:31:46.031 --> 00:31:48.001
+Yeah, I think if Francisco here
+download.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3664-0
+00:36:38.421 --> 00:36:40.791
+You can use any option from the
+list.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3680-0
+00:36:41.731 --> 00:36:45.821
+Yeah, best use the which project
+are you in? Which which team?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3671-0
+00:36:41.811 --> 00:36:42.561
+Or anything she.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3685-0
+00:36:46.921 --> 00:36:48.661
+So I'm in liberty.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3696-0
+00:36:50.511 --> 00:36:54.381
+Liver king. They're working on
+topics like.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3702-0
+00:36:55.441 --> 00:36:56.971
+Umm, mostly on architect topics.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3709-0
+00:36:58.261 --> 00:36:59.191
+Ah, OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3712-0
+00:36:58.441 --> 00:37:00.211
+KUNAL KUNAL. KUNAL too.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3716-0
+00:37:00.671 --> 00:37:02.181
+Yeah. OK. OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3721-0
+00:37:05.201 --> 00:37:07.781
+This is like a standard thing.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3726-0
+00:37:08.421 --> 00:37:10.111
+And Umm.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3731-0
+00:37:09.521 --> 00:37:12.061
+The club project to use.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3737-0
+00:37:14.791 --> 00:37:15.741
+Ohh there is the.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3740-0
+00:37:18.121 --> 00:37:19.271
+Let's see.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3745-0
+00:37:22.221 --> 00:37:23.471
+Can you Scroll down a bit?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3749-0
+00:37:26.661 --> 00:37:27.921
+More, more, more.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3761-0
+00:37:38.191 --> 00:37:42.921
+Maybe the death euro helps the
+rocks.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3771-0
+00:37:46.461 --> 00:37:49.831
+Good question. Maybe ask regular
+thoughts on your team, right?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3774-0
+00:37:50.391 --> 00:37:50.921
+Right, yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3787-0
+00:37:51.341 --> 00:37:54.081
+Maybe I'll ask her. What she
+what she selected here.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3781-0
+00:37:51.481 --> 00:37:52.261
+Yeah, yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3794-0
+00:37:55.111 --> 00:37:57.001
+But for now you can use.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3806-0
+00:37:58.421 --> 00:38:01.271
+You can always change this, uh,
+later in the settings.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3804-0
+00:38:00.461 --> 00:38:00.711
+Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3813-0
+00:38:02.631 --> 00:38:03.281
+Me, I.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3817-0
+00:38:02.711 --> 00:38:04.791
+Can you maybe go back to the
+top?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3820-0
+00:38:06.441 --> 00:38:07.281
+Content.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3824-0
+00:38:11.541 --> 00:38:13.321
+Ohh #2 maybe?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3826-0
+00:38:15.141 --> 00:38:15.811
+Or yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3831-0
+00:38:29.811 --> 00:38:30.831
+They should, I think.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3834-0
+00:38:33.481 --> 00:38:34.331
+Now wait.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3840-0
+00:38:35.461 --> 00:38:36.351
+We should get out.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3844-0
+00:38:38.471 --> 00:38:39.421
+A message.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3848-0
+00:38:46.571 --> 00:38:48.581
+Can you press enter again and?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3862-0
+00:38:53.641 --> 00:38:57.691
+So, OK, yeah, now it's done.
+It's done.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3852-0
+00:38:54.031 --> 00:38:54.321
+Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3898-0
+00:38:58.701 --> 00:39:02.749
+Matt, can you quickly try cheek
+that? Come on cheek cloud out of
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3898-1
+00:39:02.749 --> 00:39:06.796
+a print identity token, the one
+I used in the, I can tell I will
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3898-2
+00:39:06.796 --> 00:39:08.041
+send it to the chat.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3900-0
+00:39:08.851 --> 00:39:09.171
+OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3904-0
+00:39:09.461 --> 00:39:10.691
+Just for a test.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3908-0
+00:39:17.931 --> 00:39:19.441
+This command here.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3925-0
+00:39:44.441 --> 00:39:47.311
+Yeah, that's good. So you gotta
+tell that's fine.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3931-0
+00:39:47.931 --> 00:39:48.871
+That's OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3944-0
+00:39:52.051 --> 00:39:56.461
+And now you can have you already
+installed to your PC UI or go.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3949-0
+00:39:57.041 --> 00:39:58.111
+Yes, yes, it's installed.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3958-0
+00:39:58.521 --> 00:40:01.331
+OK, so you can, uh, print,
+enter, go now.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3963-0
+00:40:04.631 --> 00:40:05.781
+Sorry, what should I do?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3970-0
+00:40:06.581 --> 00:40:08.701
+Go keep TGO.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3969-0
+00:40:07.921 --> 00:40:08.461
+Good.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3973-0
+00:40:12.771 --> 00:40:13.441
+And enter.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3994-0
+00:40:14.561 --> 00:40:19.031
+OK, perfect. Now you can install
+it with the command which is on
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/3994-1
+00:40:19.031 --> 00:40:21.781
+this GitHub page. So if you go
+to this.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4003-0
+00:40:22.211 --> 00:40:23.791
+Yeah, that that's already done.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4006-0
+00:40:22.481 --> 00:40:24.321
+Get a page. The linker provide
+you.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4012-0
+00:40:25.041 --> 00:40:25.881
+This is finished.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4011-0
+00:40:25.091 --> 00:40:25.921
+Ohh you also.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4024-0
+00:40:27.561 --> 00:40:30.771
+OK, OK. So you can just then you
+can paste.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4019-0
+00:40:28.121 --> 00:40:28.361
+Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4036-0
+00:40:31.861 --> 00:40:35.891
+Like I will send. Now you do.
+You already have the.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4042-0
+00:40:36.001 --> 00:40:39.661
+Um hope still repository on your
+machine.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4050-0
+00:40:40.561 --> 00:40:42.321
+Because what you need is the
+proto files.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4061-0
+00:40:43.051 --> 00:40:44.141
+As your oppose.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4062-0
+00:40:43.271 --> 00:40:44.611
+And the protocols are.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4064-0
+00:40:45.351 --> 00:40:45.701
+Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4071-0
+00:40:46.461 --> 00:40:47.321
+Whenever you have it.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4076-0
+00:40:46.531 --> 00:40:48.561
+I think it should be a no show.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4084-0
+00:40:49.591 --> 00:40:51.001
+Azure repose.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4085-0
+00:40:50.331 --> 00:40:51.101
+And the pros?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4089-0
+00:40:52.531 --> 00:40:52.861
+Sorry.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4093-0
+00:40:53.421 --> 00:40:54.591
+We have the prototype that.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4096-0
+00:40:56.241 --> 00:40:57.491
+Exactly.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4104-0
+00:41:05.491 --> 00:41:07.301
+So you need to clone them.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4115-0
+00:41:09.101 --> 00:41:12.271
+I think you'll maybe you did
+last time, not sure.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4119-0
+00:41:14.001 --> 00:41:15.051
+Into the link.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4123-0
+00:41:24.691 --> 00:41:25.761
+The link is in the chat.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4125-0
+00:41:34.631 --> 00:41:35.721
+OK, I sent it to.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4128-0
+00:41:38.051 --> 00:41:38.441
+Thanks.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4133-0
+00:41:52.261 --> 00:41:52.561
+Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4143-0
+00:41:54.781 --> 00:41:58.291
+Yeah, and you need to download
+it now to your machine.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4149-0
+00:42:00.361 --> 00:42:02.201
+So which one I can download?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4164-0
+00:42:02.551 --> 00:42:06.958
+The the whole report just go to
+on the top of the right to go to
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4164-1
+00:42:06.958 --> 00:42:07.771
+clone, yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4167-0
+00:42:12.531 --> 00:42:13.641
+And then.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4180-0
+00:42:15.011 --> 00:42:18.653
+Yeah, you you can clone it in
+Visual Studio code or what's
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4180-1
+00:42:18.653 --> 00:42:18.961
+your?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4184-0
+00:42:20.051 --> 00:42:20.881
+Or do you use?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4192-0
+00:42:22.621 --> 00:42:24.041
+The reviews to cloud.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4189-0
+00:42:23.011 --> 00:42:23.271
+OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4206-0
+00:42:27.381 --> 00:42:30.247
+To FLUCK, running the command
+will be like it's a gift or
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4206-1
+00:42:30.247 --> 00:42:30.741
+something.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4219-0
+00:42:31.561 --> 00:42:34.891
+You can use Git as well, or you
+can just use cloning VS code.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4221-0
+00:42:35.751 --> 00:42:36.251
+OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4225-0
+00:42:40.121 --> 00:42:41.151
+What do you prefer?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4232-0
+00:42:56.021 --> 00:42:56.761
+It is not.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4236-0
+00:42:58.491 --> 00:42:59.941
+Maybe please God.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4264-0
+00:44:06.891 --> 00:44:07.921
+Yeah, I think the.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4269-0
+00:44:09.171 --> 00:44:10.091
+That's good him.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4294-0
+00:44:10.911 --> 00:44:14.775
+That's fine. Good. So you're not
+now. You have all the prod to
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4294-1
+00:44:14.775 --> 00:44:18.762
+here in the API V1 and then you
+can read in the. You can go back
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4294-2
+00:44:18.762 --> 00:44:19.191
+to the.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4299-0
+00:44:19.271 --> 00:44:21.721
+The Windows command prompt.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4305-0
+00:44:23.361 --> 00:44:24.951
+You did it in Visual Studio, is
+it?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4307-0
+00:44:25.741 --> 00:44:26.171
+Yes.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4312-0
+00:44:26.921 --> 00:44:28.421
+Hmm. OK, great night.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4320-0
+00:44:30.541 --> 00:44:31.671
+And now you can.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4322-0
+00:44:30.911 --> 00:44:32.181
+Open fresh command prompt.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4335-0
+00:44:34.211 --> 00:44:38.661
+Yet, yeah, open. Yeah, the the
+terminal and then go to the.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4342-0
+00:44:40.021 --> 00:44:42.081
+To the path to the path.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4348-0
+00:44:44.561 --> 00:44:45.521
+Of the ripple.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4355-0
+00:44:47.971 --> 00:44:50.161
+Part of the report in this
+sense, this.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4364-0
+00:44:50.851 --> 00:44:52.251
+To that proto file or.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4366-0
+00:44:51.451 --> 00:44:53.981
+No, you know, no.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4372-0
+00:44:54.411 --> 00:44:55.451
+OK. Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4382-0
+00:44:56.491 --> 00:45:00.001
+I think one more up, let me
+check the command.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4398-0
+00:45:03.521 --> 00:45:07.697
+So as you can see here, you go
+down to the dock space where the
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4398-1
+00:45:07.697 --> 00:45:08.871
+command is pasted.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4404-0
+00:45:09.751 --> 00:45:11.681
+You can see that the command is.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4408-0
+00:45:13.081 --> 00:45:14.391
+Uh. The import path?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4455-0
+00:45:15.161 --> 00:45:18.887
+I mean, it's all at the end. It
+depends how you set up the
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4455-1
+00:45:18.887 --> 00:45:22.865
+command, but you use the command
+I created here this one. Then
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4455-2
+00:45:22.865 --> 00:45:26.527
+it's one folder above. It's the
+root folder of the of the
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4455-3
+00:45:26.527 --> 00:45:30.505
+project, because then I will go
+to API version one project. Or
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4455-4
+00:45:30.505 --> 00:45:33.851
+you can just go to the root
+folder in your terminal.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4457-0
+00:45:39.321 --> 00:45:39.751
+That's.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4460-0
+00:45:40.571 --> 00:45:41.131
+We find.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4464-0
+00:45:42.041 --> 00:45:43.741
+And come on.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4487-0
+00:45:54.661 --> 00:45:57.958
+No. Now, now in new you are on
+your little or you need to go.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4487-1
+00:45:57.958 --> 00:46:00.351
+Sorry. You need to go to the
+root folder of.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4491-0
+00:46:02.121 --> 00:46:02.641
+Of the.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4500-0
+00:46:03.821 --> 00:46:05.421
+The branch you just land
+ordered, yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4502-0
+00:46:06.451 --> 00:46:06.821
+OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4509-0
+00:46:07.651 --> 00:46:09.601
+Just need to find out where
+it's.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4515-0
+00:46:11.771 --> 00:46:13.671
+Who supposed? OK, OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4525-0
+00:46:28.851 --> 00:46:30.721
+Yeah, exactly. Now you can paste
+it here.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4529-0
+00:46:32.901 --> 00:46:33.651
+I'm try.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4532-0
+00:46:35.741 --> 00:46:36.241
+Enter.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4535-0
+00:46:39.011 --> 00:46:39.781
+Looks good.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4544-0
+00:46:41.061 --> 00:46:43.471
+OK, this is, yeah, very good.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4543-0
+00:46:43.261 --> 00:46:43.601
+We.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4546-0
+00:46:44.311 --> 00:46:44.821
+Also.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4588-0
+00:46:45.831 --> 00:46:49.531
+Because if you have a problem
+with cheer, PCI or with your
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4588-1
+00:46:49.531 --> 00:46:53.419
+authentication or something, it
+already fails before, so it's
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4588-2
+00:46:53.419 --> 00:46:57.119
+very good that we are already
+here and now you can set the
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4588-3
+00:46:57.119 --> 00:47:01.070
+date now. Now that's an empty
+request, but now you see how how
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4588-4
+00:47:01.070 --> 00:47:02.261
+you get the errors.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4601-0
+00:47:03.021 --> 00:47:06.411
+But now you can like check this
+date mark here.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4594-0
+00:47:03.681 --> 00:47:03.891
+And.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4632-0
+00:47:08.691 --> 00:47:12.151
+Yeah. And now he will create the
+also the Jason structure for
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4632-1
+00:47:12.151 --> 00:47:15.386
+you. So you can now either
+change the date here in the UI
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4632-2
+00:47:15.386 --> 00:47:17.841
+or you change it here, whatever
+you prefer.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4634-0
+00:47:18.861 --> 00:47:19.251
+OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4648-0
+00:47:21.181 --> 00:47:24.491
+So you can't maybe change the
+date to tomorrow or today.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4657-0
+00:47:40.351 --> 00:47:41.631
+And then woke again.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4662-0
+00:47:44.671 --> 00:47:46.101
+No. Yeah, no, it's.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4679-0
+00:47:47.471 --> 00:47:51.173
+Uh, now we have an authorized
+issue, OK, don't have permission
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4679-1
+00:47:51.173 --> 00:47:52.641
+to request that. You are.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4698-0
+00:47:54.651 --> 00:48:01.463
+This is probably because of the
+access to the big query table I
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4698-1
+00:48:01.463 --> 00:48:02.101
+think.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4706-0
+00:48:03.361 --> 00:48:05.231
+Can you go back to the request
+form please?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4708-0
+00:48:09.441 --> 00:48:09.741
+Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4720-0
+00:48:09.821 --> 00:48:15.271
+So ohh no. So you see here the
+authorization.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4730-0
+00:48:16.781 --> 00:48:21.031
+There's an issue with the he
+just copied the.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4740-0
+00:48:22.741 --> 00:48:26.331
+The command here he didn't. It's
+not the the token.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4750-0
+00:48:27.921 --> 00:48:30.541
+Because you should have to talk
+it inside the value.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4778-0
+00:48:31.291 --> 00:48:35.163
+And not the command. This has
+something to add. I always had
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4778-1
+00:48:35.163 --> 00:48:38.971
+this problem. Can you maybe
+copy? Can you maybe do the same
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4778-2
+00:48:38.971 --> 00:48:42.843
+on the PowerShell? I think it
+works there it works better on
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4778-3
+00:48:42.843 --> 00:48:43.541
+PowerShell.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4783-0
+00:48:44.201 --> 00:48:45.901
+You should PowerShell is there.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4786-0
+00:48:47.171 --> 00:48:48.001
+OK you should.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4809-0
+00:48:50.791 --> 00:48:55.081
+I also I also had this issue
+with the the Windows Command
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4809-1
+00:48:55.081 --> 00:48:58.261
+prompt and then go to also go to
+the repo.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4819-0
+00:48:59.131 --> 00:49:01.781
+And then copy and then paste
+this command.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4817-0
+00:48:59.901 --> 00:49:01.161
+Yeah, yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4837-0
+00:49:29.761 --> 00:49:32.101
+And also didn't work. Can you go
+back to PowerShell?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4879-0
+00:49:33.011 --> 00:49:37.146
+I think there's an issue with
+cheaper. Can you just can you
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4879-1
+00:49:37.146 --> 00:49:41.281
+control C now to to exit your
+PCR? Yeah. And now just enter
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4863-0
+00:49:40.241 --> 00:49:40.531
+Yep.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4879-2
+00:49:41.281 --> 00:49:45.416
+the gcloud command because
+they're now there's some issues.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4879-3
+00:49:45.416 --> 00:49:46.311
+Google cloud.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4889-0
+00:49:50.711 --> 00:49:55.681
+OK, why is this not running on
+the PowerShell?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4904-0
+00:49:59.911 --> 00:50:03.797
+Kind of low because running
+scripts is disabled on the
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4904-1
+00:50:03.797 --> 00:50:07.541
+system. You should policies or
+not for us to access.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4906-0
+00:50:10.991 --> 00:50:11.481
+OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4915-0
+00:50:13.291 --> 00:50:15.401
+You have admin access on your
+machine, right?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4918-0
+00:50:16.731 --> 00:50:17.261
+Yes.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4930-0
+00:50:16.841 --> 00:50:22.273
+Maybe run power? Can you maybe
+run PowerShell with admin like
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4930-1
+00:50:22.273 --> 00:50:22.711
+yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4941-0
+00:50:55.961 --> 00:50:57.831
+If its source of right sources.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4945-0
+00:51:07.001 --> 00:51:08.121
+Now that problem.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4968-0
+00:51:25.391 --> 00:51:30.085
+Yeah, this is some settings on
+your machine so but then we need
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4968-1
+00:51:30.085 --> 00:51:33.751
+to try it on the terminal, on
+the command prompt.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4992-0
+00:51:35.151 --> 00:51:38.580
+Maybe you can afterwards Google
+it why it's not allowed to buy
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4992-1
+00:51:38.580 --> 00:51:41.790
+this. Running scripts are
+disabled on your machine on your
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4992-2
+00:51:41.790 --> 00:51:42.171
+system.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5000-0
+00:51:43.531 --> 00:51:45.141
+But maybe let's go.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/4999-0
+00:51:43.921 --> 00:51:45.101
+I'll see what is the issue.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5009-0
+00:51:46.131 --> 00:51:48.631
+Yeah, but maybe go go back to
+the comment prompt.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5050-0
+00:51:52.681 --> 00:51:56.508
+And let's find out why it's not.
+I think this has something to
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5050-1
+00:51:56.508 --> 00:52:00.335
+cause here. It's an issue that
+he is not running this command,
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5050-2
+00:52:00.335 --> 00:52:04.222
+this G cloud of print identity
+token. I don't know if if it has
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5050-3
+00:52:04.222 --> 00:52:07.867
+to do with the double quotes. If
+you need that maybe single
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5050-4
+00:52:07.867 --> 00:52:08.231
+quote.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5054-0
+00:52:09.471 --> 00:52:10.601
+You need to try.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5066-0
+00:52:11.991 --> 00:52:15.281
+I always had to use PowerShell
+and then PowerShell. It worked.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5060-0
+00:52:12.401 --> 00:52:12.911
+OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5084-0
+00:52:18.831 --> 00:52:23.265
+But you can also do is now if
+you open a new command prompt
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5084-1
+00:52:23.265 --> 00:52:24.521
+and just run the.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5091-0
+00:52:25.251 --> 00:52:27.481
+Tea cloth sheet cloud command.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5099-0
+00:52:29.171 --> 00:52:33.231
+And then print the G Cloud Print
+identity token.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5101-0
+00:52:34.161 --> 00:52:35.091
+Ohh yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5111-0
+00:52:40.461 --> 00:52:41.771
+OK, let's come on.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5113-0
+00:52:40.771 --> 00:52:42.441
+OK, here at least in transit.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5117-0
+00:52:42.731 --> 00:52:43.341
+It's working.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5132-0
+00:52:43.161 --> 00:52:46.885
+That's good. So you you just
+paste the command from the chat
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5132-1
+00:52:46.885 --> 00:52:49.021
+you cloud of print identity
+token.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5142-0
+00:53:07.701 --> 00:53:09.171
+Now you copy this tokens.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5147-0
+00:53:16.531 --> 00:53:18.261
+And go to the browser.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5151-0
+00:53:19.121 --> 00:53:19.831
+So that glue.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5189-0
+00:53:26.861 --> 00:53:31.346
+And now here after the yeah,
+after that space and now the the
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5189-1
+00:53:31.346 --> 00:53:35.613
+barrier is fine. You need to
+leave it. And after the space
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5189-2
+00:53:35.613 --> 00:53:39.591
+you just paste the token
+exactly. Now you add to date.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5195-0
+00:53:53.331 --> 00:53:54.101
+Try again.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5199-0
+00:54:00.411 --> 00:54:01.701
+OK, you can reload it.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5205-0
+00:54:08.751 --> 00:54:09.741
+I need to restart.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5226-0
+00:54:08.981 --> 00:54:12.148
+Ah, sorry. You closed. Yeah, you
+could be closed the session. You
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5226-1
+00:54:12.148 --> 00:54:15.316
+close that. You have to see your
+session in the command prompt me
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5218-0
+00:54:13.451 --> 00:54:13.761
+Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5226-2
+00:54:15.316 --> 00:54:16.131
+to open it again.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5228-0
+00:54:17.291 --> 00:54:17.621
+Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5232-0
+00:54:17.901 --> 00:54:19.101
+This should be closed.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5240-0
+00:54:22.951 --> 00:54:26.821
+And OK, but I can directly pass
+that value here.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5248-0
+00:54:27.691 --> 00:54:29.581
+And I do it or this is fine.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5256-0
+00:54:29.051 --> 00:54:31.716
+Yeah, yeah, sure, sure. You can
+also now you can also post it
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5256-1
+00:54:31.716 --> 00:54:31.931
+here.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5263-0
+00:54:33.481 --> 00:54:36.271
+Just remove the this whole
+thing.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5265-0
+00:54:40.681 --> 00:54:40.931
+Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5272-0
+00:55:02.501 --> 00:55:02.841
+Stop.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5286-0
+00:55:41.901 --> 00:55:43.211
+It's too large difference.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5290-0
+00:55:44.721 --> 00:55:45.401
+Yeah. Good.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5293-0
+00:55:46.151 --> 00:55:46.621
+You know.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5295-0
+00:55:48.481 --> 00:55:49.011
+OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5303-0
+00:55:50.851 --> 00:55:52.721
+Then we can try that and OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5326-0
+00:56:57.101 --> 00:56:59.311
+Have to jump to another meeting
+in 2 minutes.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5328-0
+00:57:03.641 --> 00:57:04.241
+Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5339-0
+00:57:04.971 --> 00:57:07.221
+We can make, uh, a follow up if
+you want.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5342-0
+00:57:08.611 --> 00:57:09.001
+OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5354-0
+00:57:09.031 --> 00:57:11.971
+I think this was this is good
+good help.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5350-0
+00:57:09.881 --> 00:57:10.311
+When?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5358-0
+00:57:11.991 --> 00:57:14.071
+Yeah. So maybe.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5372-0
+00:57:15.631 --> 00:57:19.185
+Find maybe you can find out
+what's the issue with this with
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5372-1
+00:57:19.185 --> 00:57:20.251
+the PowerShell or.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5382-0
+00:57:21.351 --> 00:57:24.781
+Just uh, maybe how the command
+needs to be changed, OK.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5396-0
+00:57:25.481 --> 00:57:27.501
+I think this time it worked,
+yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5390-0
+00:57:25.661 --> 00:57:25.991
+Ohh.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5394-0
+00:57:25.731 --> 00:57:26.681
+Now it worked right.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5455-0
+00:57:27.591 --> 00:57:31.334
+OK, OK. This means your your
+permission is fine. The only
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5407-0
+00:57:29.381 --> 00:57:29.971
+Oops.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5416-0
+00:57:30.961 --> 00:57:31.691
+Promotion is fine.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5455-1
+00:57:31.334 --> 00:57:35.334
+thing we need to fix now is on
+your local machines how to get
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5455-2
+00:57:35.334 --> 00:57:39.270
+this command drum in either how
+either we get the PowerShell
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5455-3
+00:57:39.270 --> 00:57:43.400
+running. That's how I did it all
+the time and the PowerShell or
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5455-4
+00:57:43.400 --> 00:57:47.401
+we need to find out how we need
+to start it from the terminal
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5445-0
+00:57:43.801 --> 00:57:44.021
+Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5455-5
+00:57:47.401 --> 00:57:47.981
+with the.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5481-0
+00:57:49.301 --> 00:57:53.641
+That he runs the the comment
+instead of just because maybe
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5481-1
+00:57:53.641 --> 00:57:57.833
+you don't want to always
+generate this code manually and
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5481-2
+00:57:57.833 --> 00:57:59.671
+copy and paste it, right?
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5483-0
+00:58:00.391 --> 00:58:00.751
+Yep.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5485-0
+00:58:01.941 --> 00:58:02.261
+Yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5494-0
+00:58:03.661 --> 00:58:06.331
+But it's good, it's good
+already. A good start here.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5503-0
+00:58:06.481 --> 00:58:09.271
+Yeah, yeah, we'll set up.
+Thanks, Christian.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5521-0
+00:58:10.061 --> 00:58:14.963
+This is you don't forget to
+share the the recording. This is
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5509-0
+00:58:10.721 --> 00:58:11.251
+Welcome.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5521-1
+00:58:14.963 --> 00:58:16.731
+the deposit knowledge.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5524-0
+00:58:18.121 --> 00:58:18.851
+Oh yeah.
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5543-0
+00:58:19.591 --> 00:58:23.591
+OK, well, let's show. I send it
+to you all, all of you, or I'll
+
+5b3cacc6-8653-429e-82cb-ec57973ceacd/5543-1
+00:58:23.591 --> 00:58:24.341
+stop it now.

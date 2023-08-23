@@ -1,0 +1,12 @@
+
+@facebook
+Feature: signup into facebook Application
+@facebooksignup
+  Scenario: 
+    Given User Launch Chrome browser
+    When User opens URL "https://en-gb.facebook.com/reg/"
+    And User enters First name as "Monika" and Surname as "Sontakke"
+    And User enters email address as "sontakkemonika@94gmail.com" and New Password as "Mona@94"
+    And User selects Date,Month and Year of Birth
+    And User clicks radio button "Female"
+    Then User clicks on sign up button

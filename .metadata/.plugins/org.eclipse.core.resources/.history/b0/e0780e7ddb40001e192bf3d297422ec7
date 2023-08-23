@@ -1,0 +1,61 @@
+package stepDefinitions;
+
+import io.cucumber.java.en.*;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class facebook {
+WebDriver driver ;
+	
+	@Given("User Launch Chrome browser")
+	public void user_launch_chrome_browser() {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Desktop\\Eclipse Projects\\Facebooksignup\\src\\main\\java\\driver\\chromedriver.exe");
+		driver= new ChromeDriver();
+	}
+
+	@When("User opens URL {string}")
+	public void user_opens_url(String string) {
+		driver.navigate().to("https://en-gb.facebook.com/reg/");
+		driver.manage().window().maximize();
+	  
+	}
+
+	@When("User enters First name as {string} and Surname as {string}")
+	public void user_enters_first_name_as_and_surname_as(String firstname, String surname) {
+		driver.findElement(By.xpath("(//input[@name='firstname'])")).sendKeys(firstname);
+		driver.findElement(By.xpath("(//input[@name='lastname'])")).sendKeys(surname);
+	    
+	}
+
+	@When("User enters email address as {string} and New Password as {string}")
+	public void user_enters_email_address_as_and_new_password_as(String email, String password) {
+		driver.findElement(By.xpath("(//input[@name='reg_email__'])")).sendKeys(email);
+		driver.findElement(By.xpath("(//input[@name='reg_passwd__'])")).sendKeys(password);
+	   
+	}
+
+	@When("User selects Date,Month and Year of Birth")
+	public void user_selects_date_month_and_year_of_birth() {
+		driver.findElement(By.xpath("(//*[@id='day'])")).sendKeys("13");
+	   driver.findElement(By.xpath("(//*[@id='month'])")).sendKeys("Sep");
+	   driver.findElement(By.xpath("(//*[@id='year'])")).sendKeys("1994");
+	   
+	}
+
+	@When("User clicks radio button {string}")
+	public void user_clicks_radio_button(String string) {
+		driver.findElement(By.xpath("(//input[@id='u_0_4_wz'])")).click();
+	
+	}
+
+	@Then("User clicks on sign up button")
+	public void user_clicks_on_sign_up_button() {
+		driver.findElement(By.xpath("(//*[@id='u_0_s_NI'])")).click();
+	   
+	}
+
+
+
+}

@@ -1,0 +1,4 @@
+Feature: signup into facebook Application
+
+Scenario: As a user i want to signup into the facebook application
+ Given user launch facebook application
